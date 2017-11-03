@@ -2,36 +2,38 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Resume</title>
-    <link type="text/css" rel="stylesheet" href="css/green.css" />
+    <link rel="stylesheet" href="css/green.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<!-- Begin Wrapper -->
-<div id="wrapper">
-    <div class="wrapper-top"></div>
-    <div class="wrapper-mid">
-        <!-- Begin Paper -->
-        <div id="paper">
-            <div class="paper-top"></div>
-            <div id="paper-mid">
-                <div class="entry">
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<div class="row">
+    <div class="container">
+        <div class="col-xs-4">
                     <!-- Begin Image -->
                     <img class="portrait" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAALtAAAAJGQyZDYzYTlkLWNjOWQtNDY5My1hZGE1LTI5MTE0NWM0MzBlOQ.jpg" alt="Travis Gray" />
                     <!-- End Image -->
-                    <!-- Begin Personal Information -->
-                    <div class="self">
-                        <h1 class="name">Travis Gray <br />
-                            <span>Software Developer</span></h1>
+        </div>
+        <div class="col-xs-2 text-left">
+
+        <!-- Begin Personal Information -->
+                        <h1 class="name">Travis Gray</h1>
+                            <h2>Software Developer</h2>
                         <ul>
                             <li class="ad">2194 Tuscarora Dr, Frederick,MD</li>
                             <li class="mail">travisogray1@gmail.com</li>
                             <li class="tel">202-345-2079</li>
                             <li class="web" href="https://github.com/Travis-Gray2194">Github</li>
                         </ul>
-                    </div>
                     <!-- End Personal Information -->
+        </div>
+            <div class="col-xs-5 text-left">
                     <!-- Begin Social -->
                     <div class="social">
-                        <ul>
+                        <ul class="align-baseline">
                             <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
                             <li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
                             <li><a class='north' href="#" title="Follow me on Twitter"><img src="images/icn-twitter.jpg" alt="" /></a></li>
@@ -39,16 +41,36 @@
                         </ul>
                     </div>
                     <!-- End Social -->
-                </div>
-                <!-- Begin 1st Row -->
-                <div class="entry">
+            </div>
+
+    </div>                <!-- End 1st Row -->
+    <!--End Row 1-->
+
+    <!-- Begin 2nd Row -->
+    <div class="row"style="margin-top: 20px">
+        <div class="container">
+            <div class="col-xs-4 text-left">
                     <h2>OBJECTIVE</h2>
+            </div>
+                <div class="col-xs-5 text-left">
                     <p>Biobehavioral Health graduate committed to delivering high quality, responsive services. Practical projects and teamwork experiences during degree studies have revealed exceptional strengths in critical problem solving, analysis, project leadership and troubleshooting. Easily adaptable to change, with an eagerness towards learning and expanding capabilities.</p>
                 </div>
-                <!-- End 1st Row -->
-                <!-- Begin 2nd Row -->
-                <div class="entry">
-                    <h2>EDUCATION</h2>
+        </div>
+    </div>
+    <!--End Second 2nd Second Row-->
+
+
+
+
+                <!-- Begin 3nd Row -->
+    <div class="row"style="margin-top: 20px">
+        <div class="container">
+
+            <div class="col-xs-4 text-left">
+                <h2>EDUCATION</h2>
+            </div>
+
+            <div class="col-xs-8 text-left">
                     <div class="content">
                         <h3>Sep 2017</h3>
                         <p>Montgromery College, Maryland <br />
@@ -59,7 +81,11 @@
                             <li>By the end of the course, each student will have developed two complete web applications: an online messaging app like Twitter and an online survey tool. This course will cover: Servlets, JSP, Expression Language, JSTL, JPQL, Sessions/Cookies, HTML/CSS/Javascript and the Bootstrap Framework. </li>
                         </ul>
                     </div>
-                    <div class="content">
+            </div>
+
+            <div class="col-xs-8 text-left col-md-offset-4">
+                <!--moving elemnet over to right using offset-->
+                        <div class="content">
                         <h3>Jun 2010 - May 2015</h3>
                         <p>Penn State University,Pennslyvania <br />
                             <em>Bachelor of Science in Biobeheviaoral Health</em></p>
@@ -67,13 +93,20 @@
                             <li>The Biobehavioral Health (BBH) Department in the College of Health and Human Development is an innovative and interdisciplinary program designed to explore health from all angles. Our scholarship and teaching focuses on how biological, behavioral, psychological, sociocultural, and environmental variables interact to influence health across time scales and levels of analysis.
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <!-- End 2nd Row -->
-                <!-- Begin 3rd Row -->
-                <div class="entry">
+                        </div>
+            </div>
+        </div>
+    </div>
+<!--End Second 3rd Row-->
+
+    <!--Begin Fourth Row -->
+    <div class="row"style="margin-top: 20px">
+        <div class="container">
+            <div class="col-xs-4 text-left">
                     <h2>EXPERIENCE</h2>
-                    <div class="content">
+            </div>
+            <div class="col-xs-8 text-left">
+                <div class="content">
                         <h3>Jun 2016 - May 2017</h3>
                         <p>Houston Elementary School,Washington DC <br />
                             <em>Paraprofessional: Social Work/Play Therapist Assistant</em></p>
@@ -84,7 +117,10 @@
                             <li>I develop and facilitate symbolic communication lesson plans with the children, which involves making a connection between toy, signs, symbols and actions the child creates while playing.</li>
                         </ul>
                     </div>
-                    <div class="content">
+            </div>
+
+            <div class="col-xs-8 text-left col-md-offset-4">
+                <div class="content">
                         <h3>Jun 2007 - May 2010</h3>
                         <p>Seaton Real Estate Management Summer Internship<br />
                             <em>Marketing and Mangement Consultant</em></p>
@@ -94,13 +130,22 @@
                         </ul>
                     </div>
                 </div>
-                <!-- End 3rd Row -->
-                <!-- Begin 4th Row -->
-                <div class="entry">
+            </div>
+        </div>
+    </div>
+    <!--End Fourth Row-->
+
+                <!-- Begin 5th Row -->
+<div class="row"style="margin-top: 20px">
+    <div class="container">
+        <div class="col-xs-4 text-left">
                     <h2>SKILLS</h2>
-                    <div class="content">
-                        <h3>Software Knowledge</h3>
-                        <ul class="skills">
+        </div>
+
+        <div class="col-xs-8 text-left">
+        <div class="content">
+                <h3>Software Knowledge</h3>
+                    <ul class="skills">
                             <li>Java</li>
                             <li>HTML</li>
                             <li>InDesign</li>
@@ -123,17 +168,11 @@
                             <li>.Net</li>
                         </ul>
                     </div>
-                </div>
-                <!-- End 4th Row -->
-            </div>
-            <div class="clear"></div>
-            <div class="paper-bottom"></div>
         </div>
-        <!-- End Paper -->
+        </div>
+                <!-- End 5th Row -->
     </div>
-    <div class="wrapper-bottom"></div>
-</div>
-<div id="message"><a href="#top" id="top-link">Go to Top</a></div>
-<!-- End Wrapper -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
